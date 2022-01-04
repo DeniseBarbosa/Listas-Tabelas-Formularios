@@ -9,14 +9,6 @@ body{
 p {
     color: blue;
     font-size: 30px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
+    font-family: 'Island Moments', cursive;
 }
 
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
