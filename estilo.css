@@ -6,9 +6,25 @@ body{
     
 }
 
-p {
-    color: blue;
-    font-size: 30px;
-    font-family: 'Island Moments', cursive;
+table{
+    width: 600px;
 }
-
+table thead{
+    background-color: blueviolet;
+}
+table tbody{
+    background-color: brown;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+tbody tr:hover{
+    background-color: chartreuse;
+}
+tbody tr:nth-child(even){
+    background-color: darkgoldenrod;
+}
+th{
+    font-weight:normal;
+}
