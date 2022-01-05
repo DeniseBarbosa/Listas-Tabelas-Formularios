@@ -9,36 +9,37 @@
         <link rel="stylesheet" href="estilo.css"/>
     </head>
     <body>
-        <h1>Tabela</h1>
+       
+        <form method="POST">
 
-        <table width="400" border="1">
-            <thead>
-                <tr>
-                    <th>Item 1</th>
-                    <th>Item 2</th>
-                    <th>Item 3</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-            </tbody>
-
-        </table>
+            <label>
+             <fieldset>
+                <legend>Dados pessoais</legend>
+                Primeiro Nome:<br/>
+                <input type="text" name="nome"/>
+            </label> 
+            <br/>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="nome-meio"/>
+            </label>
+            <br/>
+            <label>
+            </fieldset>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                Empresa:<br/>
+                <input type="text" name="nome-meio"/>
+            </label> 
+            <br/>
+            <label>
+                Cargo:<br/>
+                <input type="text" name="nome-meio"/>
+            </label> 
+         </fieldset>
+           
+            <input type="submit" value="Cadastrar"/>
+        </form>
 
       
     </body>

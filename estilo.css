@@ -6,25 +6,13 @@ body{
     
 }
 
-table{
-    width: 600px;
+fieldset{
+    background-color: gray;
+    margin-bottom: 20px;
+    border: 2px solid black;
 }
-table thead{
-    background-color: blueviolet;
-}
-table tbody{
-    background-color: brown;
-}
-th,td{
-    padding: 10px;
-    text-align: left;
-}
-tbody tr:hover{
-    background-color: chartreuse;
-}
-tbody tr:nth-child(even){
-    background-color: darkgoldenrod;
-}
-th{
-    font-weight:normal;
+legend{
+    background-color: burlywood;
+    padding: 5px;
+    border: 2px solid black;
 }
